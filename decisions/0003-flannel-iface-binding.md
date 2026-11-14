@@ -1,4 +1,4 @@
-# 0005: Flannel VXLAN 언더레이 인터페이스 명시적 지정 (--iface=enp0s9)
+# 0003: Flannel VXLAN 언더레이 인터페이스 명시적 지정 (--iface=enp0s9)
 
 ## Context
 - Day 1 결정(0001)에서 Host-only(관리용)/Internal(클러스터 통신 전용) 이중 네트워크 구성을 채택
