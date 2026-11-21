@@ -129,7 +129,7 @@ Pod가 죽고 새로 생길 때마다 IP가 바뀌므로, **바뀌지 않는 고
 
 | 개념 | 설명 |
 |---|---|
-| Namespace | 클러스터 안의 논리적 구획 (`default`, `kube-system`, `kube-flannel` 등) |
+| Namespace | 클러스터 안의 논리적 구획 (`default`, `kube-system`, `kube-flannel` 등). 리눅스 namespace(커널 격리 기능)와는 별개 개념 → [docker-and-containers.md](docker-and-containers.md#namespace-두-가지-이름만-같은-별개-개념) |
 | Label / Selector | 오브젝트에 붙이는 이름표와 그걸로 대상을 고르는 방법. Service가 Pod를 찾는 방식 |
 | etcd | 클러스터의 모든 상태를 저장하는 DB |
 | Scheduler | 새 Pod를 어느 Node에 놓을지 결정 |
@@ -153,5 +153,7 @@ Pod가 죽고 새로 생길 때마다 IP가 바뀌므로, **바뀌지 않는 고
 
 - 5~6번: 🔬 Day 5에서 정리한 kubelet의 역할.
 - 전체 흐름 자체는 📖 일반 지식. 이 프로젝트에서는 단계별로 하나씩 추적해 보지 않았다.
+
+관련 문서: 컨테이너, 이미지, Docker와 Kubernetes의 관계는 [docker-and-containers.md](docker-and-containers.md) 참고.
 
 ---
